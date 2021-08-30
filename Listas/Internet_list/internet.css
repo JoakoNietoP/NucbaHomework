@@ -1,0 +1,40 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://images5.alphacoders.com/924/thumb-1920-924467.jpg);
+    background-position: center;
+    /* background-attachment: fixed; */
+
+}
+ main{
+    /* background-image: url(https://png.clipart.me/istock/previews/9328/93280837-outline-technology-icon-seamless-background-icons-pattern.jpg); */
+    border-radius: 20px;
+    opacity: 0.99;
+
+}
+header{
+    text-align: center;
+    background: gray;
+    opacity: 0.9;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+}
+div{
+    border: black solid;
+    border-radius: 10px;
+    opacity: 0.9;
+    background-color: black;
+    color: lightgray;
+    
+}
+
+
+footer{
+    background: black;
+    text-align: center;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    margin: 0px auto;
+}

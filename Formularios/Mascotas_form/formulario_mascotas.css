@@ -1,0 +1,56 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    background-image: url(https://st.depositphotos.com/1298561/3958/v/950/depositphotos_39587185-stock-illustration-doodle-pet-icons-set.jpg);
+    text-shadow: black;
+    font-weight:900;
+}
+main{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: min-content;
+    background-image: url(https://i.pinimg.com/564x/30/36/63/303663e74f2b8106200feb8292d5fa20.jpg);
+    background-position: center;
+    border: black 1px solid;
+    border-radius: 10px;
+}
+form{
+    border: black dashed 0.5px;
+    border-radius: 20px;
+    background: whitesmoke;
+    height: min-content;
+    width: 500px;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+    background-position: center;;
+
+}
+footer{
+    background: black;
+    text-align: center;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    margin: 0px auto;
+}
+h1{
+    text-decoration: underline  black 0.5px;
+    text-shadow: black;
+}
+h2{
+    text-decoration: underline black 0.5px
+}
+h3{
+    text-decoration: underline black 0.5px
+}
+h4{
+    text-decoration: underline black 0.5px
+}
+textarea{
+    border-radius: 10px;
+    border: black dashed 0.3px;
+}

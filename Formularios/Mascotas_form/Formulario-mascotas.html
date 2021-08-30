@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Mascotass</title>
+    <link rel="shorcut icon" href="Images/icon_patita.png">
+    <link rel="stylesheet" href="formulario_mascotas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <main>
+        <header>
+            <h1>Mi bebe y yo</h1>
+            <img src="Assets/Chimuelo_y_yo.png" alt="Mi bbsito" width="350px" height="300px">
+        </header>
+           
+        
+        
+        <form action="/" method="POST">
+            <h2> Formulario de Mascotass</h2>
+            <p>La descripcion de mi bebe</p>
+
+            
+            <h3>Info: </h3>
+            <datos>
+
+                <label class="input-label">Nombre
+                    <input type="text" name="Nombre" id="Nombre" placeholder="Como se llama?" maxlength="10" minlength="2" required>
+                </label> 
+                
+                <br>
+               
+                <h4>Especie</h4>
+                <select name="especie" id="especie" placeholder="Seleccione uno">
+                    <option value="gato">Gato</option>
+                    <option value="perro">Perro</option>
+                    <option value="ave">Ave</option>
+                    <option value="roedor">Roedor</option>
+                    <option value="pez">Pez</option>
+                    <option value="otro">Otro</option>
+                </select>
+                
+                <br>
+                <br>
+
+                <label >
+                    <input type="radio" name="genero" id="masculino" value="Macho"checked>Macho
+                </label>
+                
+                <label>
+                    <input type="radio" name="genero" id="femenino" value="Hembra">Hembra
+                </label>
+                
+                <label>
+                    <input type="radio" name="genero"  id="dudoso" value="Nose" >No se
+                </label>
+                
+                <label>
+                    <input type="radio" name="genero"  id="nobinarie" value="nobinarie">No binario
+                </label>    
+            </datos>
+
+            <br>
+            <br>
+
+            <salud>
+                <label>
+                    Vacunas al dia<input type="checkbox" name="vacunas" id="vacunas" value="vacunado"><br>
+                </label>
+                <label>
+                    Esta castrado<input type="checkbox" name="castrado" id="castrado" value="castrado"> <br>
+                </label>
+                <label>
+                    Esta desparacitado<input type="checkbox" name="desparacitado" id="desparacitado" value="desparacitado">
+                </label>
+
+                <br>
+                <br>
+                
+                <label class="input-label">
+                    <h3>Fecha De Nacimiento/Adopcion:</h3> <br><input type="date" id="adopcion"  name="adopcion">
+                </label>  
+            </salud>
+
+                <br>
+                <br>
+
+            <h3>Contacto</h3>
+
+            <contacto>
+
+                <label class="input-label">Email?
+                    <input type="email" name="email" id="email" placeholder="Casilla de correo" required>
+                </label>
+                
+                <br>
+                <br>
+                
+                
+                <label class="input-label">Telefono?
+                    <input type="tel" maxlength="20" minlength="6" id="telefono" name="telefono" placeholder="Tu celu" required>
+                </label>
+                
+                <br>
+                <br>
+                
+                <h3>Me pueden encontrar por la:</h3>
+
+                <label>
+                    Mañana<input  type="radio"id="dia" name="horario" checked>
+                </label>
+                
+                <label>
+                    Tarde<input  type="radio" id="tarde" name="horario">
+                </label>
+                
+                <label>
+                    Noche<input  type="radio" name="horario" id="noche">
+                </label>
+            <br>
+            <br>
+            </contacto>
+
+            <br>
+            <br>
+
+            <datosirrelevantes>
+
+                <textarea name="datos" cols="30" rows="10" id="anecdota" placeholder="Algo que deba saber de él?"></textarea>
+                
+                <br>
+                <br>
+                
+                
+                <label for="xxx">
+                    <input type="file">
+                </label>
+
+            </datosirrelevantes>
+
+                <br>
+                <br>
+                
+            <Enviar>
+
+                <label>
+                    <input type="checkbox" name="acepto" id="acepto" required>Acepto que mi mascota sea usada para dar ternura al mundo
+                </label>
+
+                <br>
+                <br>
+
+                <input type="reset">
+                <input type="submit">
+            </Enviar>
+
+        </form>
+    
+    </main>
+            
+    <footer>JoakoNietoP &copy;2021</footer>
+</body>
+</html>

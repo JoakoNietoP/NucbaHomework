@@ -1,0 +1,41 @@
+body{
+    background-image: url(https://w7.pngwing.com/pngs/327/926/png-transparent-batman-icon-batman-icon-angle-heroes-camera-icon-thumbnail.png);
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: large;
+}
+header{
+    background-image: url(https://w7.pngwing.com/pngs/770/458/png-transparent-batman-black-and-white-joker-computer-icons-batman-heroes-leaf-logo.png);
+    text-align: text-top;
+    text-align: center;
+    text-align: text-bottom;
+    width: 40%;
+    height: 250px;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    ;
+    color: yellow;
+}
+main{
+    background: whitesmoke;
+    width: 40% ;
+    height: min-content;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border: black solid;
+}
+footer{
+    background: black;
+    text-align: center;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    margin: 0px auto;
+}
+h2{
+    text-align: center;
+    text-decoration: underline wavy blue 0.3px;
+}

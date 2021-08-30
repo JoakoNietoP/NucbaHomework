@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso</title>
+    <link rel="stylesheet" href="ingreso.css">
+</head>
+<body>
+    <header>
+        <h1>Formulario de Registro</h1>
+    </header>
+    <main>
+        <form action="/" method="POST">
+            <div class="text">
+                <label for="nombre">Nombre:
+                    <input type="text" name="nombre" id="nombre" placeholder="Como te llamas?" maxlength="20" minlength="2" required>
+                </label>
+            
+            <br>
+            <br>
+            
+            <label for="apellido">Apellido:
+                <input type="text" name="apellido" id="apellido" placeholder="Cual es tu apellido?" maxlength="20" minlength="2" required>
+            </label>
+
+            </div>
+
+            <br>
+
+            <div class="radio">
+                <label for="radio">Genero:
+                    <label>
+                        <input type="radio" name="genero" id="masculino" checked>Masculino
+                    </label>
+                    
+                    <label>
+                        <input type="radio" name="genero" id="femenino">Femenino
+                    </label>
+
+                    <label>
+                        <input type="radio" name="genero" id="nobinarie">No Binarie
+                    </label>
+
+                    <label>
+                        <input type="radio" name="genero" id="sinespecificar">Sin Especificar
+                    </label>
+                </label>
+            </div>
+
+            <br>
+            
+            <div class="email">
+                <label>Email?
+                    <input type="email" name="email" id="email" required placeholder="Cual es tu correo?">
+                </label>
+            </div>
+
+            <br>
+
+            <div class="select">
+                <label for="region">Poblacion:</label>
+                <select name="region" id="region">
+                    <option value="alicante">Alicante</option>
+                    <option value="sevilla">Sevilla</option>
+                    <option value="barcelona">Barcelona</option>
+                    <option value="madrid">Madrid</option>
+                </select>
+            </div>
+            
+            <br>
+
+            <div class="descripcion">
+                <label for="descripcion">Descripcion: </label>
+                <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Por favor, escribe una breve reseña de lo que mas te guste del lugar"></textarea>
+            </div>
+
+            <br>
+
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="info" id="info"> Deseo recibir informacion sobre novedades y ofertas.
+                </label>
+                
+                <br>
+                
+                <label>
+                    <input type="checkbox" name="terminos" id="terminos" required> Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos.
+                </label>
+            </div>
+
+
+        
+            <br>
+            
+            <div class="enviar">
+                <input type="reset">
+                <input type="submit">
+            </div>
+        </form>
+    </main>
+    <footer>JoakoNietoP &copy;2021</footer>
+</body>
+</html>
