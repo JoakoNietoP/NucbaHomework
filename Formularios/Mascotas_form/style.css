@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto Mono', monospace;
     text-align: center;
-    background-image: url(https://st.depositphotos.com/1298561/3958/v/950/depositphotos_39587185-stock-illustration-doodle-pet-icons-set.jpg);
+    background-image: url(Assets/Fondovete.jpg);
     text-shadow: black;
     font-weight:900;
 }
@@ -11,7 +11,7 @@ main{
     margin-right: auto;
     width: 800px;
     height: min-content;
-    background-image: url(https://i.pinimg.com/564x/30/36/63/303663e74f2b8106200feb8292d5fa20.jpg);
+    background-image: url(Assets/patitatriangular.jpg);
     background-position: center;
     border: black 1px solid;
     border-radius: 10px;
