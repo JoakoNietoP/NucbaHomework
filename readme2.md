@@ -1,1 +1,0 @@
-#Resolviendo problemas con git
