@@ -26,7 +26,8 @@ form{
     margin-left: auto;
     margin-right: auto;
     opacity: 0.9;
-    background-position: center;;
+    background-position: center;
+    border-bottom: none;
 
 }
 footer{
@@ -36,6 +37,9 @@ footer{
     height: 50px;
     line-height: 50px;
     margin: 0px auto;
+}
+footer, a:hover{
+    color: grey;
 }
 h1{
     text-decoration: underline  black 0.5px;
