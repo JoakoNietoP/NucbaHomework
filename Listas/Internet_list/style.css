@@ -1,14 +1,16 @@
 body{
     font-family: 'Times New Roman', Times, serif;
-    background-image: url(https://images5.alphacoders.com/924/thumb-1920-924467.jpg);
+    background-image: url(Assets/fondointernet.jpg);
     background-position: center;
     /* background-attachment: fixed; */
+    font-size: 16px;
 
 }
  main{
     /* background-image: url(https://png.clipart.me/istock/previews/9328/93280837-outline-technology-icon-seamless-background-icons-pattern.jpg); */
-    border-radius: 20px;
+    border-radius: 1rem;
     opacity: 0.99;
+    font-size: 10px;
 
 }
 header{
@@ -16,13 +18,14 @@ header{
     background: gray;
     opacity: 0.9;
     width: 25%;
-    text-align: center;
     margin: auto;
-    border-radius: 5px;
+    border-radius: 1rem;
+    font-size: 1.7rem;
 }
+
 div{
     border: black solid;
-    border-radius: 10px;
+    border-radius: 1em;
     opacity: 0.9;
     background-color: black;
     color: lightgray;
@@ -37,4 +40,29 @@ footer{
     height: 50px;
     line-height: 50px;
     margin: 0px auto;
+}
+footer a:hover{
+    color: grey;
+}
+h2{
+    font-size: 1.3rem;
+}
+dt{
+    font-size: 1.5em ;
+    text-decoration: underline white;
+}
+dl, dd{
+    font-size: 1.3em;
+}
+ul{
+    font-size: 1.5rem;
+}
+ .disc{
+    font-size: 1.3rem;
+} 
+.circle{
+    font-size: 1rem;
+} 
+ol{
+    font-size: 2rem;
 }
